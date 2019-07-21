@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <!-- saved from url=(0014)about:internet  -->
+    <link rel="stylesheet" href="css/daohanglan.css">
+    <link rel="stylesheet" href="css/lunbotu.css">
+    <title>Document</title>
+</head>
+<body>
+     <!-- 新建一个遮罩层 -->
+    <div id="bgdiv"></div>
+    <div class="dowebok">
+        <!-- 表单 -->
+        <form class="loginarea">
+            <div class="form-item">账号：
+                <input class="input" id="user" type="text" autocomplete="off" placeholder="用户名">
+            </div>
+            <div class="form-item">密码：
+                <input class="input" id="password" type="password" autocomplete="off" placeholder="******">
+            </div>
+            <div id="md">
+                <input type="checkbox" id="check">7天免登录
+            </div>
+            <div class="form-item">
+                <button id="submit">登 录</button>
+            </div>
+            <div class="reg-bar">
+                <a class="reg">立即注册</a>
+                <a class="forget">忘记密码</a>
+            </div>
+        </form>
+    </div>
+    <div id="nav">
+        <div id="nav-1">
+            <div class="logo">
+                <!--onclick事件弹出登录-->
+                <p id="up">Hi~请登录</p>
+                <!-- 显示用户名 -->
+                <div class="username"></div>
+            </div>
+            <div id="nav-2">
+            <a class="current" href="#">首页</a>
+            <a href="#banner">轮播图</a>
+            <a href="#enjoy">休闲娱乐</a>
+            <a href="#home">旅游住宿</a>
+            <a href="#serve">生活服务</a>
+            <a href="#liren">丽人</a>
+            <a href="#shopping">商品</a>
+            </div>
+                <div id="log_out">退出</div>
+            <div id="nav-3">
+                <p class="dropdown"><img src="images/canvas.png" alt=""></p>
+                <!--下拉菜单-->
+                <div class="dropdown-content">
+                    <a href="#banner">轮播图</a>
+                    <a href="#enjoy">休闲娱乐</a>
+                    <a href="#home">旅游住宿</a>
+                    <a href="#serve">生活服务</a>
+                    <a href="#liren">丽人</a>
+                    <a href="#shopping">商品</a>
+                </div>
+            </div>
+        </div>
+    </div>
+         <div id="banner">
+            <div id="banner-1">
+                <img src="images/a3.jpg" alt="">
+                <img src="images/a1.jpg" alt="">
+                <img src="images/a3.jpg" alt="">
+                <img src="images/a1.jpg" alt="">
+                <img src="images/a2.jpg" alt="">
+            </div>
+            <span id="left"><img src="images/last_page.png" alt=""></span>
+            <span id="right"><img src="images/next_page.png" alt=""></span>
+            <ul id="locate">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div> 
+    <div id="enjoy">休闲娱乐</div>
+    <div id="home">旅游住宿</div>
+    <div id="serve">生活服务</div>
+    <div id="liren">丽人</div>
+    <div id="shopping">商品</div>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src = "js/cookieUtil.js"></script>
+<script src="js/login.js"></script>
+<!-- <script src = "js/yidongLogIn.js"></script> -->
+<script src="js/zezhaocen.js"></script>
+<script src="js/lunbotu.js"></script>
+</body>
+</html>

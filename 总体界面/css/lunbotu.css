@@ -1,0 +1,57 @@
+*{
+    padding:0;
+    margin:0;
+}
+#banner {
+    width: 100%;
+    height: 500px;
+    background-color: blanchedalmond;
+}
+#banner-1 {
+    width: 100%;
+    height: 500px;
+}
+#banner-1 img {
+    position: absolute;
+    top: 0px;
+    margin-top: 43px;
+    width: 100%;
+    height: 500px;
+    z-index: 0;
+}
+span {
+     display: block;
+     position: absolute;
+     width: 30px;
+     height: 60px;
+     line-height: 50px;
+     text-align: center;
+     cursor:pointer;
+     background-color: blue;
+     opacity: .5;
+}
+#banner #right{
+    float: right;
+    right: 0;
+    top: 230px;
+}
+#banner #left{
+    float: left;
+    left: 0;
+    top: 230px;
+}
+#banner #locate{
+    position: absolute;
+    left: 600px;
+    top: 510px;
+}
+#banner ul li{
+    float: left;
+    margin: 0 10px;
+    list-style-type: none;
+    height: 12px;
+    width: 12px;
+    background-color: #DDDDDD;
+    border-radius:50%;
+    cursor:pointer;
+} 

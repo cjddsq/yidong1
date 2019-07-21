@@ -1,0 +1,32 @@
+#loading {
+    position: relative;
+    width: 400px;
+    height: 25px;
+    border: 1px solid red;
+    margin:  20% auto;
+}
+#loadcover {
+    position: absolute;
+    display: none;
+    width: 400px;
+    height: 25px;
+    background-color: #fff;
+    text-align: center;
+}
+#loading-1 {
+    position: absolute;
+    height: 25px;
+    background-color: blue;
+    animation: myfirst 10s ease;
+    /* animation-fill-mode:forwards; */
+}
+#loadtext
+{
+	position: absolute;
+	right: 0;
+}
+@keyframes myfirst
+{
+    from{width: 0px;}
+    to{width: 100%;}
+}
